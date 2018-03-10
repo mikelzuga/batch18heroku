@@ -1,0 +1,24 @@
+.bg-custom {
+  background: red;
+}
+
+.shadow {
+  box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.3);
+
+}
+
+#cajas {
+  display: flex;
+}
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  border: solid 2px grey;
+  height: 70px;
+  margin: 3px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(201, 0, 0, 0.7);
+}
